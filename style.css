@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 125%/1.5 'work sans', BlinkMacSystemFont, -apple-system, avenir, roboto, sans-serif;
+  color: #231f20;
+  background: #dbd2be;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.flowers {
+  width: 25vw;
+  vertical-align: top;
+}
+
+h1 {
+  font-size: 14vw;
+  line-height: .9;
+  padding-left: .25em;
+  display: inline-block;
+}
+
+.hero {
+  margin-bottom: 8em;
+}
+
+.details {
+  text-align: right;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-size: 4vw;
+  position: relative;
+  margin-top: .5em;
+}
+
+.bird {
+  width: 9vw;
+  display:block;
+  position: absolute;
+  right: -2.5vw;
+  top: -4.5vw;
+}
+
+.date {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.info {
+  text-transform: none;
+}
+
+@media(min-width: 64em){
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 70em;
+  }
+
+  .item {
+    width: 50%;
+  }
+
+  .hero {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 6vw;
+  }
+
+  .flowers {
+    width: 12vw;
+  }
+
+  .details {
+    font-size: 2vw;
+  }
+
+  .bird {
+    width: 6vw;
+    top: -3vw;
+  }
+}
