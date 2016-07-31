@@ -14,6 +14,41 @@ body {
   height: 100vh;
 }
 
+p {
+  margin-bottom: 1.5em;
+}
+
+.details-page {
+  flex-direction: column
+}
+
+h2,h3,h4 {
+  line-height: 1.1;
+}
+
+a {
+  color: #3b5a2b;
+}
+
+.row {
+  display: flex;
+  width: 90%;
+  max-width: 60em;
+}
+
+.event-time {
+  padding: 2em;
+  flex-basis: 1;
+  width: 30%;
+  text-align: right;
+}
+
+.event-info {
+  padding: 2em;
+  flex-basis: 2;
+  width: 70%;
+}
+
 .flowers {
   width: 25vw;
   vertical-align: top;
@@ -279,4 +314,22 @@ h1 {
 .bounceInUp {
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
+}
+
+/* Utilities */
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
 }
