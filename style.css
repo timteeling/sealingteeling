@@ -26,6 +26,8 @@ body {
   content: '';
   position: absolute;
   width: 1em;
+  left: 50%;
+  margin-left: -.5em;
   height: 5em;
   bottom: 2em;
   background-repeat: no-repeat;
@@ -35,7 +37,12 @@ body {
 
 .detail-section {
   background: rgba(0,0,0,.05);
-  padding-top: 4em;
+  padding: 4em 0;
+}
+
+.footer-section {
+  text-align: center;
+  padding: 4em 0;
 }
 
 p {
@@ -75,13 +82,30 @@ a:hover {
 
 .event-time {
   padding: .75em .5em .5em;
-  width: 25%;
+  width: 30%;
   text-align: right;
+}
+
+.time {
+  margin: 0 0;
+  padding: 1em .5em;
+  border: 2px solid #333;
+  display: inline-block;
+  background: #9cbccd;
+  border-radius: 50%;
+  line-height: 1.1;
+  width: 3.5em;
+  text-align: center;
+}
+
+.ceremony {
+  background: #e2cd49;
+  border-radius: 20%;
 }
 
 .event-info {
   padding: .5em;
-  width: 75%;
+  width: 70%;
 }
 
 .flowers {
