@@ -249,6 +249,10 @@ h1 {
   background: #24371b;
 }
 
+.btn-link {
+  padding: .5em 1em;
+}
+
 .animated,
 .hero-section:after {
   -webkit-animation-duration: 1s;
