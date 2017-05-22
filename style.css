@@ -49,6 +49,11 @@ p {
   margin-bottom: 1.5em;
 }
 
+ul {
+  padding-left: 1em;
+  margin-bottom: 1.5em;
+}
+
 .details-page {
   flex-direction: column
 }
@@ -238,10 +243,18 @@ h1 {
 .btn {
   background: #3b5a2b;
   padding: .5em 1em;
+  margin-bottom: .5em;
   color: #fff;
   text-decoration: none;
   border-radius: 3px;
   transition: .2s all ease-in;
+  display: block;
+}
+
+@media (min-width: 38em) {
+  .btn {
+    display: inline-block;
+  }
 }
 
 .btn:hover {
@@ -250,7 +263,13 @@ h1 {
 }
 
 .btn-link {
-  padding: .5em 1em;
+  padding: .5em 0;
+}
+
+@media (min-width: 38em) {
+  .btn-link {
+    padding: .5em 1em;
+  }
 }
 
 .animated,
